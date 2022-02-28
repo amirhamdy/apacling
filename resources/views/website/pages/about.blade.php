@@ -5,133 +5,269 @@
 @endsection
 
 @section('page_styles')
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/about.css') }}">
 @endsection
 
 @section('page_scripts')
-    <script type="text/javascript" src="{{ asset('js/about.js') }}"></script>
 @endsection
 
 <?php
-$banner_path = 'images/about/banner-mobile.png';
+$banner_path = 0;
 ?>
 
 @section('page_content')
-    <!--  Introduction SECTION  -->
-    <div id="page" class="container-fluid">
-        <div class="row">
-            <div class="col-12 mb-3">
-                <h1 class="website-title">About Shefaa</h1>
-                <h1 class="website-title sub-title">
-                    Embolization is a minimally invasive surgical technique. The purpose is to prevent blood flow to an
-                    area of the body, which can effectively shrink a tumor or block an aneurysm
-                </h1>
-                <p>
-                    Embolization is a minimally invasive surgical technique. Embolization is a minimally invasive
-                    surgical technique. The purpose is to prevent blood flow to an area of the body, which can
-                    effectively shrink a tumor or block an aneurysm. Embolization is a minimally invasive surgical
-                    technique. . Embolization is a minimally invasive surgical technique. Embolization is a minimally
-                    invasive surgical technique. The purpose is to prevent blood flow to an area of the body, which can
-                    effectively shrink a tumor or block an aneurysm. Embolization is a minimally invasive surgical
-                    technique.
-                </p>
-            </div>
-
-            <div id="mission" class="col-xl-6 col-lg-10  col-md-10  col-sm-10 mx-auto">
-                <img src="{{ asset('images/about/mission.png') }}" alt="mission image">
-                <div class="overlay-text">
-                    <div>
-                        <h2 class="website-title white-title">Mission</h2>
-                        <p>
-                            Embolization is a minimally invasive surgical technique. The purpose is to prevent blood
-                            flow to
-                            an area of the body, which can effectively shrink a tumor or block an aneurysm
-                        </p>
-                    </div>
+    <section class="page_header">
+        <div class="container">
+            <div class="row" style="margin-top: 50px">
+                <div class="col-sm-12 text-center">
+                    <p>Who We Are</p>
+                    <h1 class="text-uppercase"> About Us</h1>
                 </div>
             </div>
-
-            <div id="vision" class="col-xl-6 col-lg-10  col-md-10  col-sm-10 mx-auto">
-                <img src="{{ asset('images/about/vision.png') }}" alt="vision image">
-                <div class="overlay-text">
-                    <div>
-                        <h2 class="website-title white-title">Vision</h2>
-                        <p>
-                            Embolization is a minimally invasive surgical technique. The purpose is to prevent blood
-                            flow to
-                            an area of the body, which can effectively shrink a tumor or block an aneurysm
-                        </p>
-                    </div>
+        </div>
+    </section>
+    <div class="page_linker">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <ul class="breadcrumb">
+                        <li><a href="index.html"><i class="icon-home6"></i>Home</a></li>
+                        <li class="active">About Us</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--  End Introduction SECTION  -->
-
-    <!--  Board SECTION  -->
-    <div id="page" class="container-fluid board">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="website-title">The Board</h1>
-                <div class="owl-carousel owl-theme owl-board">
-                    <div class="item">
-                        <img src="{{ asset('images/about/doctor-1.png') }}">
-                        <h1 class="website-title doctor-name">Dr. Ibrahim Ali</h1>
-                        <p>
-                            Neurosurgery<br>
-                            Clinical Research<br>
-                            Director
-                        </p>
-                    </div>
-                    <div class="item">
-                        <img src="{{ asset('images/about/doctor-2.png') }}">
-                        <h1 class="website-title doctor-name">Dr. Ibrahim Ali</h1>
-                        <p>
-                            Neurosurgery<br>
-                            Clinical Research<br>
-                            Director
-                        </p>
-                    </div>
-                    <div class="item">
-                        <img src="{{ asset('images/about/doctor-3.png') }}">
-                        <h1 class="website-title doctor-name">Dr. Ibrahim Ali</h1>
-                        <p>
-                            Neurosurgery<br>
-                            Clinical Research<br>
-                            Director
-                        </p>
-                    </div>
-                    <div class="item">
-                        <img src="{{ asset('images/about/doctor-1.png') }}">
-                        <h1 class="website-title doctor-name">Dr. Ibrahim Ali</h1>
-                        <p>
-                            Neurosurgery<br>
-                            Clinical Research<br>
-                            Director
-                        </p>
-                    </div>
-                    <div class="item">
-                        <img src="{{ asset('images/about/doctor-2.png') }}">
-                        <h1 class="website-title doctor-name">Dr. Ibrahim Ali</h1>
-                        <p>
-                            Neurosurgery<br>
-                            Clinical Research<br>
-                            Director
-                        </p>
-                    </div>
-                    <div class="item">
-                        <img src="{{ asset('images/about/doctor-3.png') }}">
-                        <h1 class="website-title doctor-name">Dr. Ibrahim Ali</h1>
-                        <p>
-                            Neurosurgery<br>
-                            Clinical Research<br>
-                            Director
-                        </p>
+    <!--About Us-->
+    <section id="about" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 padding-bottom"> <img src="images/about.jpg" alt="About Us" class="img-responsive"> </div>
+                <div class="col-sm-6 about_right padding-bottom">
+                    <h2 class="bottom10">We Innovate & <span class="blue_t">Design</span></h2>
+                    <p class="bottom30">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius id.</p>
+                    <p class="bottom30">Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium interpretaris pro, alia illum ea vim.</p>
+                    <ul class="check">
+                        <li><i class="icon-check"></i>Mei an pericula euripidis, hinc partem ei est.</li>
+                        <li><i class="icon-check"></i>Eos ei nisl graecis acer sell well.</li>
+                        <li><i class="icon-check"></i>Alienum phaedrum torquatos lorem fact.</li>
+                    </ul>
+                    <div class="number-counters text-center">
+                        <div class="counters-item top15">
+                            <p class="data"><strong data-to="12">0</strong></p>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="counters-item top15">
+                            <p class="data"><strong data-to="14">0</strong><sub>k</sub></p>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="counters-item top15">
+                            <p class="data"><strong data-to="100">0</strong><sub>%</sub></p>
+                            <p>Satisfaction</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!--Meet the Team-->
+    <section id="team" class="padding grey_light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="bottom10 text-capitalize">Meet Our <span class="blue_t">Team</span></h2>
+                    <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros Sed ornare ligula eget tortor tempor.</p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team_wrap top40">
+                        <div class="image heading_space"> <img src="images/team1.jpg" alt="our Team">
+                            <div class="list_content">
+                                <ul class="team_social">
+                                    <li><a href="#"><i class="icon-euro"></i></a></li>
+                                    <li><a href="#"><i class="icon-twitter5"></i></a></li>
+                                    <li><a href="#"><i class="icon-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3>Ellizabeth Taylor</h3>
+                        <span class="bottom20">Founder & Chief</span>
+                        <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula Progressively generate synergistic eget.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team_wrap top40">
+                        <div class="image heading_space"> <img src="images/team2.jpg" alt="our Team">
+                            <div class="list_content">
+                                <ul class="team_social">
+                                    <li><a href="#"><i class="icon-euro"></i></a></li>
+                                    <li><a href="#"><i class="icon-twitter5"></i></a></li>
+                                    <li><a href="#"><i class="icon-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3>Neal Collins</h3>
+                        <span class="bottom20">Vice President</span>
+                        <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula Progressively generate synergistic eget.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team_wrap top40">
+                        <div class="image heading_space"> <img src="images/team3.jpg" alt="our Team">
+                            <div class="list_content">
+                                <ul class="team_social">
+                                    <li><a href="#"><i class="icon-euro"></i></a></li>
+                                    <li><a href="#"><i class="icon-twitter5"></i></a></li>
+                                    <li><a href="#"><i class="icon-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3>Jacqueline Huet</h3>
+                        <span class="bottom20">Creative Chief</span>
+                        <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula Progressively generate synergistic eget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Team ends-->
+
+
+    <!--Quality Fine-->
+    <section id="quality" class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Quality Comes First</h2>
+                    <p class="heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros Sed ornare ligula eget tortor tempor.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="quality_wrap clearfix">
+                    <div class="col-md-6">
+                        <div class="left"> <img src="images/quality.jpg" alt="quality"> </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right">
+                            <div class="media">
+                                <div class="media-left">
+                                    <div class="media-object"><span>1</span></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="bottom10">Our Capabilities</h4>
+                                    <p class="bottom15">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula Progressively generate synergistic luctus ut velit eget eget.</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <div class="media-object"><span>2</span></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="bottom10">We are Best at</h4>
+                                    <p class="bottom15">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula Progressively generate synergistic luctus ut velit eget eget.</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <div class="media-object"><span>3</span></div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="bottom10">How We Accomplish</h4>
+                                    <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula Progressively generate synergistic
+                                        luctus ut velit eget eget.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Quality fine ends-->
+
+
+    <!--What We DO-->
+    <section id="wedo" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>What We<span class="blue_t">Do</span></h2>
+                    <p class="heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros Sed ornare
+                        ligula eget tortor tempor.</p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-6">
+                    <div class="accordion-container bottom40">
+                        <div class="accordion_title"> <a href="javascript:void(0)" class="active">Our Mission<i class="fa fa-plus"></i></a>
+                            <div class="content" style="display:block;">
+                                <p class="bottom20">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis
+                                    in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an.
+                                    Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+                                <p class="bottom0">Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium
+                                    interpretaris pro, alia illum ea vim.</p>
+                            </div>
+                        </div>
+                        <div class="accordion_title"> <a href="javascript:void(0)">Our Goals<i class="fa fa-plus"></i></a>
+                            <div class="content">
+                                <p class="bottom20">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis
+                                    in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an.
+                                    Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+                                <p class="bottom0">Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium
+                                    interpretaris pro, alia illum ea vim.</p>
+                            </div>
+                        </div>
+                        <div class="accordion_title"> <a href="javascript:void(0)">About Fin Growth <i class="fa fa-plus"></i></a>
+                            <div class="content">
+                                <p class="bottom20">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis
+                                    in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an.
+                                    Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
+                                <p class="bottom0">Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error omnium
+                                    interpretaris pro, alia illum ea vim.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="do_media media bottom40">
+                        <div class="media-left"> <a href="#"> <img class="media-object" src="images/wedo.jpg" alt=".We Do"> </a> </div>
+                        <div class="media-body">
+                            <h4 class="bottom10">Always Available</h4>
+                            <p class="heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare
+                                ligula Progressively generate synergistic eget.</p>
+                            <h4 class="bottom10">Qualified Agents</h4>
+                            <p class="heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare
+                                ligula.</p>
+                            <h4 class="bottom10">Best Offers</h4>
+                            <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--We Do ends-->
+
+
+    <!--Contact Info-->
+    <div class="container bg_contact bg_one border_radius">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="contact_inner"> <i class="icon-phone4"></i>
+                    <h5><strong>(+01) 333-444-4567</strong></h5>
+                    <a href="javascript:void(0)">contact@website.com</a> </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="contact_inner"> <i class="icon-icons20"></i>
+                    <h5><strong>Mon - Sat 8.00 - 17.00</strong></h5>
+                    <h5>Sunday Closed</h5>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="contact_inner"> <i class="icon-location"></i>
+                    <h5><strong>(8th floor, 379 Hudson St</strong></h5>
+                    <h5>New York, NY 10018</h5>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
     </div>
-    <!--  End Board SECTION  -->
 @endsection

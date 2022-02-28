@@ -56,7 +56,7 @@ a.back-to:hover, a.back-to:focus{ background:#d02552;}
 
 
 
-/* ----------------- HEADER -----------------*/ 
+/* ----------------- HEADER -----------------*/
 nav.navbar.bootsnav ul.nav > li.dropdown > .dropdown-toggle:hover,
 nav.navbar.bootsnav ul.nav > li.dropdown.on > .dropdown-toggle{
 	color:#d02552;
@@ -71,18 +71,18 @@ nav.navbar.bootsnav ul.nav > li > a.border:before{
 
 /*Push Menu*/
 /*this is the nav*/
-.pushmenu{ 
+.pushmenu{
   border-top:5px solid #8ac832;
 }
 
-.pushmenu .push_nav > li > a:hover, .pushmenu  .push_nav > li > a:focus, 
+.pushmenu .push_nav > li > a:hover, .pushmenu  .push_nav > li > a:focus,
 .pushmenu  .push_nav > li.active > a,
 #layout_bottom  nav.navbar.bootsnav ul.nav > li > a:hover,
 #layout_bottom  nav.navbar.bootsnav ul.nav > li > a:focus,
 #layout_bottom  nav.navbar.bootsnav ul.nav > li.active > a{
 	color:#d02552;
 }
-                                      
+
 
 /* ----------------- HEADER ----------------- */
 
@@ -138,7 +138,7 @@ nav.navbar.bootsnav ul.nav > li > a.border:before{
 	padding-left:15px;
 	padding-right:15px;
 }
-#plan_slider .item, #plan_slider .item h2, #plan_slider .item p, 
+#plan_slider .item, #plan_slider .item h2, #plan_slider .item p,
 #plan_slider .item span, #plan_slider .item a{
 	-moz-transform:scale none !important;
 	-ms-transform:scale none !important;
@@ -153,7 +153,7 @@ nav.navbar.bootsnav ul.nav > li > a.border:before{
 
 /* ----------------- News & Thoughts / Blog  & Our Team----------------- */
 .team_wrap:hover h3, .news:hover h4,
-.news ul.news_crumb li a:hover, .news ul.news_crumb li a:focus, .news a:hover, .news a:focus, 
+.news ul.news_crumb li a:hover, .news ul.news_crumb li a:focus, .news a:hover, .news a:focus,
 .blog_item:hover a, .blog_item:focus a{
 	color:#d02552;
 }
@@ -316,7 +316,7 @@ ul.check li > i{
 .footer_top .footer_panel .media-body a:hover, .footer_top .footer_panel .media-body a:focus{
 	color:#d02552;
 }
-.footer_top.layout_second .footer_panel .media-body a:hover, 
+.footer_top.layout_second .footer_panel .media-body a:hover,
 .footer_top.layout_second .footer_panel .media-body a:focus{
 	color:#ff9f1c;
 }

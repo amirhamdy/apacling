@@ -40,7 +40,7 @@
 </div>
 <!--Loader Ends -->
 
-{{--@include('website.partials.header')--}}
+@include('website.partials.header')
 
 @if($banner_path)
     <!--  BANNER SECTION  -->
@@ -52,7 +52,7 @@
 
 @yield('page_content')
 
-{{--@include('website.partials.footer')--}}
+@include('website.partials.footer')
 
 <script src="{{ asset('js/jquery-2.2.3.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>

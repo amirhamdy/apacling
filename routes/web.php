@@ -12,31 +12,33 @@
 */
 
 Route::get('/', function () {
-    return view('website.pages.soon');
+    return view('website.pages.index');
 })->name('home');
-
-Route::get('/doctor-referral', function () {
-    return view('website.pages.doctor_referral');
-})->name('doctor_referral');
-
-Route::post('/referral-form', 'DoctorReferralController@store');
-
-Route::get('/faq', function () {
-    return view('website.pages.faq');
-})->name('faq');
-
-Route::get('/feedback', function () {
-    return view('website.pages.feedback');
-})->name('feedback');
-
-Route::get('/profile', function () {
-    return view('website.pages.profile');
-})->name('profile');
-
-Route::get('/procedure', function () {
-    return view('website.pages.procedure');
-})->name('procedure');
 
 Route::get('/about', function () {
     return view('website.pages.about');
 })->name('about');
+
+Route::get('/services', function () {
+    return view('website.pages.index');
+})->name('services');
+
+Route::get('/team', function () {
+    return view('website.pages.index');
+})->name('team');
+
+Route::get('/translation', function () {
+    return view('website.pages.index');
+})->name('translation');
+
+Route::get('/why-us', function () {
+    return view('website.pages.index');
+})->name('why_us');
+
+Route::get('/careers', function () {
+    return view('website.pages.index');
+})->name('careers');
+
+Route::get('/contact-us', function () {
+    return view('website.pages.index');
+})->name('contact-us');
