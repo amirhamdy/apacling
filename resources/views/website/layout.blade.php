@@ -23,8 +23,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
     @yield('page_styles')
 </head>
-
-
 <body>
 
 <!--Loader-->
@@ -74,6 +72,5 @@
 <script src="{{ asset('js/wow.min.js') }}"></script>
 <script src="{{ asset('js/functions.js') }}"></script>
 @yield('page_scripts')
-
 </body>
 </html>
