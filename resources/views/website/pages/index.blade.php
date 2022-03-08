@@ -48,9 +48,9 @@ $banner_path = 0;
                          data-responsive_offset="on" data-transform_idle="o:1;"
                          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1600">
-                        <a href="#." class="btn-border text-uppercase border_radius">our services
+                        <a href="{{ route('home') }}" class="btn-border text-uppercase border_radius">our services
                         </a>
-                        <a href="#." class="text-uppercase border_radius btn-green">Get a quote
+                        <a href="{{ route('home') }}" class="text-uppercase border_radius btn-green">Get a quote
                         </a>
                     </div>
                 </li>
@@ -82,9 +82,9 @@ $banner_path = 0;
                          data-responsive_offset="on" data-transform_idle="o:1;"
                          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1600">
-                        <a href="#." class="btn-border text-uppercase border_radius">our services
+                        <a href="{{ route('home') }}" class="btn-border text-uppercase border_radius">our services
                         </a>
-                        <a href="#." class="text-uppercase border_radius btn-green">Get a quote
+                        <a href="{{ route('home') }}" class="text-uppercase border_radius btn-green">Get a quote
                         </a>
                     </div>
                 </li>
@@ -440,7 +440,7 @@ $banner_path = 0;
                 <div class="contact_inner">
                     <i class="icon-phone4"></i>
                     <h5><strong>(+01) 333-444-4567</strong></h5>
-                    <a href="#.">contact@website.com</a>
+                    <a href="{{ route('home') }}">info@apacling.com</a>
                 </div>
             </div>
             <div class="col-sm-3">
