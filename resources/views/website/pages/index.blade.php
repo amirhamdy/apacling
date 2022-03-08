@@ -400,6 +400,8 @@ $banner_path = 0;
     </section>
     <!--People Saying ends-->
 
+    <hr>
+
     <!--Partners-->
     <section id="partner" class="padding-bottom-half padding-top">
         <div class="container">
