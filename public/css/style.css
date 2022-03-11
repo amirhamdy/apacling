@@ -295,7 +295,7 @@ blockquote {
 .btn-white{
 	background:#fff;
 	color:#222222;
-	border:1px solid fff;
+	border:1px solid #fff;
 }
 .btn-white:before {
   background:#25743e;
@@ -305,7 +305,7 @@ blockquote {
 }
 .btn-yellow{
 	background:#ff9f1c;
-	border:1px solid ff9f1c;
+	border:1px solid #ff9f1c;
 	color:#fff;
 }
 .btn-yellow:before{
@@ -314,7 +314,7 @@ blockquote {
 }
 .btn-dark{
 	background:#2e363a;
-	border:1px solid 2e363a;
+	border:1px solid #2e363a;
 }
 
 .btn-white:before, .btn-green:before, .btn-border:before, .btn-yellow:before, .btn-dark:before, .btn-border-white:before{
@@ -1441,7 +1441,7 @@ nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:focus{
 .landing-wrapper {
     display: table;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://placehold.it/350x150');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/home/green.jpeg') no-repeat;
     background-position: center top;
     height: 350px;
     color: white;

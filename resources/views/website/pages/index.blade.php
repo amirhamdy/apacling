@@ -93,7 +93,7 @@ $banner_path = 0;
     </section>
     <!--SLIDERR Ends-->
 
-    <!--Three columns text Info-->
+    <!--Three columns services -->
     <section id="info" class="padding">
         <div class="container">
             <div class="row">
@@ -109,16 +109,19 @@ $banner_path = 0;
                         <h4 class="bottom10">Translation</h4>
                         <p>
                             At the core of the Apacling team are our highly skilled and experienced in-house
-                            translators.
+                            translators. Not only are they native-speakers, but also have many years of translation
+                            experience.
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="text_box text-center top40 wow fadeIn" data-wow-delay="900ms">
                         <span><i class="icon-lightbulb"></i></span>
-                        <h4 class="bottom10">LOCALIZATION</h4>
+                        <h4 class="bottom10">Localization</h4>
                         <p>
-                            With localization Apacling takes translation one step further.
+                            With localization Apacling takes translation one step further, and not only ensures that the
+                            language we use suits the target market, but also that the product as a whole is adapted to
+                            give it local appeal.
                         </p>
                     </div>
                 </div>
@@ -128,41 +131,47 @@ $banner_path = 0;
                         <h4 class="bottom10">DTP</h4>
                         <p>
                             Our in-house Desktop publishing (DTP) experts are the third vital component of our teams.
+                            They make a major contribution to Apacling’ localization success through their accurate,
+                            detailed, and professional work.
                         </p>
                     </div>
                 </div>
+                <br>
                 <div class="col-sm-4">
                     <div class="text_box text-center top40 wow fadeIn" data-wow-delay="700ms">
-                        <span><i class="icon-bargraph"></i></span>
-                        <h4 class="bottom10">Translation</h4>
+                        <span><i class="icon-direction2"></i></span>
+                        <h4 class="bottom10">Software Engineering</h4>
                         <p>
-                            At the core of the Apacling team are our highly skilled and experienced in-house
-                            translators.
+                            The second major component of the Apacling localization team is our well-trained team of
+                            software engineering experts.
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="text_box text-center top40 wow fadeIn" data-wow-delay="900ms">
-                        <span><i class="icon-lightbulb"></i></span>
-                        <h4 class="bottom10">LOCALIZATION</h4>
+                        <span><i class="icon-bag"></i></span>
+                        <h4 class="bottom10">MTPE</h4>
                         <p>
-                            With localization Apacling takes translation one step further.
+                            By using state-of-the-art and market-ready technologies, translations can now be produced in
+                            many languages virtually at the touch of a button, to an acceptable quality and at a lower
+                            cost.
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="text_box  text-center top40 wow fadeIn" data-wow-delay="1100ms">
-                        <span><i class="icon-piechart"></i></span>
-                        <h4 class="bottom10">DTP</h4>
+                        <span><i class="icon-ambulance"></i></span>
+                        <h4 class="bottom10">Localization Engineering</h4>
                         <p>
-                            Our in-house Desktop publishing (DTP) experts are the third vital component of our teams.
+                            Planning and executing a workflow for exporting, translating, and re-integrating content and
+                            meta-data for a website, e-learning module, or software application.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--Info Text ends-->
+    <!--services ends-->
 
     <!--Good Plan-->
     <section id="plans" class="padding light">
@@ -201,10 +210,7 @@ $banner_path = 0;
                     <div class="wow fadeInDown" data-wow-delay="500ms">
                         <h2 class="bottom10 text-capitalize">We’ll help you to grow <span
                                 class="blue_t">your business</span></h2>
-                        <p class="tagline heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas
-                            eros. Sed ornare ligula eget tortor tempor, quis porta tellus dictum. Phasellus lorem enim
-                            luctus ut velit eget.
-                        </p>
+                        <p class="tagline heading_space"></p>
                     </div>
                     <div class="number-counters">
                         <div class="counters-item heading_space wow fadeIn" data-wow-delay="700ms">
@@ -232,12 +238,10 @@ $banner_path = 0;
         <div class="container">
             <div class="row landing-wrapper">
                 <div class="col-sm-6 video wow fadeInLeft" style="padding: 0" data-wow-delay="500ms">
-                    <img src="{{ asset('images/home/video.jpg') }}" alt="video">
-                    <a href="https://player.vimeo.com/video/102732914?title=0&amp;byline=0&amp;portrait=0&amp;color=8ac832&amp;wmode=opaque"
-                       class="html5lightbox video-btn" data-width="900" data-height="420" title=""><i
-                            class="icon-play2"></i></a>
+                    <img src="{{ asset('images/home/5.jpg') }}" alt="video">
                 </div>
-                <div class="col-sm-6 right_content top40 bottom40 wow fadeInRight" data-wow-delay="500ms">
+                <div class="col-sm-6 right_content top40 bottom40 wow fadeInRight" style="padding: 0 30px;"
+                     data-wow-delay="500ms">
                     <h2 class="bottom30 text-capitalize">Know More About <span class="green_t">Our Company</span></h2>
                     <p class="bottom30">
                         Apacling is amongst the leading translation and localisation companies in Asia. Based in the
@@ -262,28 +266,45 @@ $banner_path = 0;
                 </div>
                 <div class="col-sm-6">
                     <div class="bg_call border_radius wow fadeInRight" id="callform" data-wow-delay="500ms">
-                        <h2 class="bottom10 text-center">Request a <span class="blue_t">Call Back </span></h2>
-                        <p class="text-center bottom20">If you need to speak to us about a general query fill in the
-                            form below and we will call you back within the same working day.</p>
+                        <h2 class="bottom10 text-center">Request a <span class="blue_t">Quote</span> now!</h2>
+                        <p class="text-center bottom20">
+                            If you need to speak to us about a general query fill in the
+                            form below and we will call you back within the same working day.
+                        </p>
                         <form class="callus">
                             <div class="row">
                                 <div class="col-sm-6 form-group">
                                     <input type="text" class="form-control" placeholder="Your Name" required>
                                 </div>
                                 <div class="col-sm-6 form-group">
-                                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                                    <input type="text" class="form-control" placeholder="Company Name" required>
                                 </div>
-                                <div class="col-sm-12 form-group">
+                                <div class="col-sm-6 form-group">
+                                    <input type="tel" class="form-control" placeholder="Phone Number" required/>
+                                </div>
+                                <div class="col-sm-6 form-group">
+                                    <input type="tel" class="form-control" placeholder="Upload File" required/>
+                                </div>
+                                <div class="col-sm-6 form-group">
                                     <div class="select border_radius">
                                         <select id="discuss">
-                                            <option selected>Discussions with Financial Experts</option>
-                                            <option>Discussions with Financial Experts</option>
-                                            <option>Discussions with Financial Experts</option>
+                                            <option selected>English</option>
+                                            <option>Arabic</option>
+                                            <option>French</option>
                                         </select>
                                     </div>
-                                    <button type="submit" class="btn-green top10 border_radius text-uppercase">Submit
-                                    </button>
                                 </div>
+                                <div class="col-sm-6 form-group">
+                                    <div class="select border_radius">
+                                        <select id="discuss">
+                                            <option selected>Arabic</option>
+                                            <option>English</option>
+                                            <option>French</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn-green top10 border_radius text-uppercase">Submit
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -441,7 +462,7 @@ $banner_path = 0;
             <div class="col-sm-3">
                 <div class="contact_inner">
                     <i class="icon-phone4"></i>
-                    <h5><strong>(+01) 333-444-4567</strong></h5>
+                    <h5><strong>(+44) (0)207 993 2325</strong></h5>
                     <a href="{{ route('home') }}">info@apacling.com</a>
                 </div>
             </div>
