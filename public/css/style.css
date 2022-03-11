@@ -1871,7 +1871,7 @@ button{ border:none;}
 
 /* ----------------- Page Header ----------------- */
 .page_header{
-	background:url(../images/page-header.jpg) no-repeat;
+	background:url(../images/home/green.jpeg) no-repeat;
 	padding:110px 0;
 }
 .page_header, .page_header p{ color:#fff;}
