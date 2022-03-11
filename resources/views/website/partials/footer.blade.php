@@ -26,10 +26,10 @@
                 <ul class="links">
                     <li><a href="{{ route('home') }}"><i class="icon-chevron-small-right"></i>Home</a></li>
                     <li><a href="{{ route('about') }}"><i class="icon-chevron-small-right"></i>About Us</a></li>
-                    <li><a href="{{ route('home') }}"><i class="icon-chevron-small-right"></i>Services</a></li>
-                    <li><a href="{{ route('home') }}"><i class="icon-chevron-small-right"></i>Why Us</a></li>
-                    <li><a href="{{ route('home') }}"><i class="icon-chevron-small-right"></i>Careers</a></li>
-                    <li><a href="{{ route('home') }}"><i class="icon-chevron-small-right"></i>Contact Us</a></li>
+                    <li><a href="{{ route('services') }}"><i class="icon-chevron-small-right"></i>Services</a></li>
+                    <li><a href="{{ route('why_us') }}"><i class="icon-chevron-small-right"></i>Why Us</a></li>
+                    <li><a href="{{ route('careers') }}"><i class="icon-chevron-small-right"></i>Careers</a></li>
+                    <li><a href="{{ route('contact-us') }}"><i class="icon-chevron-small-right"></i>Contact Us</a></li>
                 </ul>
             </div>
         </div>

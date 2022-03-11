@@ -31,7 +31,7 @@ $banner_path = 0;
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <ul class="breadcrumb">
-                        <li><a href="index.html"><i class="icon-home6"></i>Home</a></li>
+                        <li><a href="{{ route('home') }}"><i class="icon-home6"></i>Home</a></li>
                         <li class="active">About Us</li>
                     </ul>
                 </div>

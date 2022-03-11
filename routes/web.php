@@ -20,25 +20,21 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/services', function () {
-    return view('website.pages.index');
+    return view('website.pages.services');
 })->name('services');
-
-Route::get('/team', function () {
-    return view('website.pages.index');
-})->name('team');
 
 Route::get('/translation', function () {
     return view('website.pages.index');
 })->name('translation');
 
 Route::get('/why-us', function () {
-    return view('website.pages.index');
+    return view('website.pages.why_us');
 })->name('why_us');
 
 Route::get('/careers', function () {
-    return view('website.pages.index');
+    return view('website.pages.careers');
 })->name('careers');
 
 Route::get('/contact-us', function () {
-    return view('website.pages.index');
+    return view('website.pages.contact');
 })->name('contact-us');

@@ -2454,11 +2454,11 @@ ul.check li > i{
 	display:table-cell;
 }
 .contact .address span{
-	background:#019bb6;
+	background: #25743e;
 	border-radius:50%;
 	height:68px;
 	width:68px;
-	border:1px solid #019bb6;
+	border:1px solid #25743e;
 	text-align:center;
 	color:#fff;
 }
