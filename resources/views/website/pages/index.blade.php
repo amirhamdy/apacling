@@ -99,7 +99,7 @@ $banner_path = 0;
             <div class="row">
                 <div class="col-sm-12 text-center wow fadeInDown" data-wow-delay="500ms">
                     <h2 class="text-capitalize bottom10">Services <span class="blue_t">We Provide</span></h2>
-                    <p>A Quality Experience Team with 4 years experience.</p>
+                    <p>Your local gateway to APAC region</p>
                 </div>
             </div>
             <div class="row">
