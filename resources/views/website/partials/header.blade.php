@@ -4,7 +4,7 @@
         <div class="row">
             <nav class="navbar navbar-default bootsnav">
                 <div class="topbar green_bg">
-                    <span class="call">Call: (+44) (0)207 993 2325 </span>
+                    <span class="call">Call: +60  03-2299 4400 </span>
                     <span class="call">Email: <a href="#">info@apacling.com</a></span>
                     <span class="call">Mon - Sat 8.00 - 17.00</span>
                     <ul class="top_social">

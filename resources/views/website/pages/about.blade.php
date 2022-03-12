@@ -43,27 +43,23 @@ $banner_path = 0;
     <section id="about" class="padding-top">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 padding-bottom"><img src="{{ asset('images/about/1.jpg') }}" alt="About Us"
-                                                          class="img-responsive">
+                <div class="col-sm-6 padding-bottom">
+                    <img src="{{ asset('images/about/5.jpg') }}" alt="About Us" class="img-responsive">
                 </div>
                 <div class="col-sm-6 about_right padding-bottom">
                     <h2 class="bottom10">We Innovate & <span class="blue_t">Design</span></h2>
                     <p class="bottom30">
-                        Apacling is amongst the leading translation and localisation companies in Asia. Based in the
-                        Malaysia, we have offices in a number of different locations which enables us to remain in touch
-                        with all local demands, needs and requirements. In turn, this knowledge translates to the
-                        highest quality of localisation available.
+                        Quality Comes First: 15 Years of experience in
+                        providing translation services to global partners. Trusted by most of top 100 global
+                        language providers. n-house & in- country specialists with more than 7 years of translation
+                        experience.
                     </p>
                     <p class="bottom30">
-                        Our unique position also provides us with the opportunity to offer our clients a comprehensive
-                        list of services to bring a competitive edge to their products – and prepare them for any local,
-                        regional or international markets.
-                    </p>
-
-                    <p class="bottom30">
-                        Each Apacling branch has an extensive portfolio of services and products which can be customised
-                        to suit individual budgets, business plans or deadlines. Additionally, our team will devise a
-                        solution that is uniquely suited to your project requirements.
+                        15 Years of experience in
+                        providing translation services to global partners and trusted by most of top 100 global
+                        language providers. in-house & in-country specialists with more than 7 years of translation
+                        experience. You can join our team by sending your CV and qualifications to
+                        <span class="blue_t">vendor_management@apacling.com</span>
                     </p>
 
                     <ul class="check">

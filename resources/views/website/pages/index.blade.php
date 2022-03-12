@@ -20,7 +20,7 @@ $banner_path = 0;
                 <!-- SLIDE  -->
                 <li data-transition="fade">
                     <!-- MAIN IMAGE -->
-                    <img src="{{ asset('images/home/slider/4.jpg') }}" alt="" data-bgposition="center center"
+                    <img src="{{ asset('images/home/slider/1.jpg') }}" alt="" data-bgposition="center center"
                          data-bgfit="cover">
                     <!-- LAYER NR. 1 -->
                     <h1 class="tp-caption  tp-resizeme uppercase"
@@ -29,9 +29,7 @@ $banner_path = 0;
                         data-responsive_offset="on"
                         data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        data-start="1000">Financial
-                        <strong class="blue_t">Services
-                        </strong>
+                        data-start="1000"><strong class="blue_t">Apacling</strong>
                     </h1>
                     <div class="tp-caption  tp-resizeme"
                          data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
@@ -39,7 +37,8 @@ $banner_path = 0;
                          data-responsive_offset="on"
                          data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1300">
-                        <p>We offer the most complete house renovating services in the country, from kitchen
+                        <p class="white_t">
+                            Your local gateway to APAC region
                         </p>
                     </div>
                     <div class="tp-caption  tp-resizeme"
@@ -48,14 +47,16 @@ $banner_path = 0;
                          data-responsive_offset="on" data-transform_idle="o:1;"
                          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1600">
-                        <a href="{{ route('home') }}" class="btn-border text-uppercase border_radius">our services
+                        <a href="{{ route('services') }}" class="btn-border text-uppercase border_radius btn-white">
+                            our services
                         </a>
-                        <a href="{{ route('home') }}" class="text-uppercase border_radius btn-green">Get a quote
+                        <a href="{{ route('contact-us') }}" class="text-uppercase border_radius btn-green">
+                            Get a quote
                         </a>
                     </div>
                 </li>
                 <li data-transition="fade">
-                    <img src="{{ asset('images/home/slider/1.jpeg') }}" alt="" data-bgposition="center center"
+                    <img src="{{ asset('images/home/slider/7.jpg') }}" alt="" data-bgposition="center center"
                          data-bgfit="cover">
                     <h1 class="tp-caption  tp-resizeme uppercase"
                         data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
@@ -63,9 +64,7 @@ $banner_path = 0;
                         data-responsive_offset="on"
                         data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        data-start="1000">Financial
-                        <strong class="blue_t">Services
-                        </strong>
+                        data-start="1000"><strong class="blue_t">Services</strong>
                     </h1>
                     <div class="tp-caption  tp-resizeme"
                          data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
@@ -73,7 +72,8 @@ $banner_path = 0;
                          data-responsive_offset="on"
                          data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1300">
-                        <p>We offer the most complete house renovating services in the country, from kitchen
+                        <p class="white_t">
+                            We offer the most complete house renovating services in the country, from kitchen
                         </p>
                     </div>
                     <div class="tp-caption  tp-resizeme"
@@ -82,7 +82,7 @@ $banner_path = 0;
                          data-responsive_offset="on" data-transform_idle="o:1;"
                          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1600">
-                        <a href="{{ route('home') }}" class="btn-border text-uppercase border_radius">our services
+                        <a href="{{ route('services') }}" class="btn-border text-uppercase border_radius btn-white">our services
                         </a>
                         <a href="{{ route('home') }}" class="text-uppercase border_radius btn-green">Get a quote
                         </a>
@@ -139,7 +139,7 @@ $banner_path = 0;
                 <br>
                 <div class="col-sm-4">
                     <div class="text_box text-center top40 wow fadeIn" data-wow-delay="700ms">
-                        <span><i class="icon-direction2"></i></span>
+                        <span><i class="icon-presentation"></i></span>
                         <h4 class="bottom10">Software Engineering</h4>
                         <p>
                             The second major component of the Apacling localization team is our well-trained team of
@@ -149,22 +149,22 @@ $banner_path = 0;
                 </div>
                 <div class="col-sm-4">
                     <div class="text_box text-center top40 wow fadeIn" data-wow-delay="900ms">
-                        <span><i class="icon-bag"></i></span>
+                        <span><i class="icon-rocket"></i></span>
                         <h4 class="bottom10">MTPE</h4>
                         <p>
-                            By using state-of-the-art and market-ready technologies, translations can now be produced in
-                            many languages virtually at the touch of a button, to an acceptable quality and at a lower
-                            cost.
+                            Machine translation post editing.
+                            It combines human accuracy with machine translation high speed
                         </p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="text_box  text-center top40 wow fadeIn" data-wow-delay="1100ms">
-                        <span><i class="icon-ambulance"></i></span>
+                        <span><i class="icon-map"></i></span>
                         <h4 class="bottom10">Localization Engineering</h4>
                         <p>
-                            Planning and executing a workflow for exporting, translating, and re-integrating content and
-                            meta-data for a website, e-learning module, or software application.
+                            Facilitates the entire process of localization. planning and execution workflow of
+                            exporting, translating, and re-integrating content and data for websites, apps, or
+                            e-learning modules .
                         </p>
                     </div>
                 </div>
@@ -179,20 +179,20 @@ $banner_path = 0;
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 content_left">
                     <figure>
-                        <img src="{{ asset('images/home/about.png') }}" alt="about" class="img-responsive">
+                        <img src="{{ asset('images/home/1.jpg') }}" alt="about" class="img-responsive">
                     </figure>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 content_right shadow  margin-bottom">
                     <div id="plan_slider" class="owl-carousel">
                         <div class="item">
-                            <h2 class="bottom10">Start with us now</h2>
+                            <h2 class="bottom10 green_t">Start with us now</h2>
                             <p class="bottom20">
-                                Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed
-                                ornare ligula eget tortor tempor, quis porta tellus dictum. Phasellus lorem enim, luctus
-                                ut velit eget, convallis egestas eros. Sed ornare ligula eget tortor tempor, quis porta
-                                tellus dictum.
+                                We provide you with our best translation and localization quality for a very low price,
+                                as all our translators are native in country speakers and in-house as well. So you may
+                                get the best quality and paying lowest price. Additionally, we keep always an eye on the
+                                deadline desired from the customer.
                             </p>
-                            <a href="{{ route('about') }}" class="btn-border text-uppercase border_radius">Read
+                            <a href="{{ route('about') }}" class="btn-border text-uppercase border_radius btn-green">Read
                                 More...</a>
                         </div>
                     </div>
@@ -462,7 +462,7 @@ $banner_path = 0;
             <div class="col-sm-3">
                 <div class="contact_inner">
                     <i class="icon-phone4"></i>
-                    <h5><strong>(+44) (0)207 993 2325</strong></h5>
+                    <h5><strong>+60  03-2299 4400</strong></h5>
                     <a href="{{ route('home') }}">info@apacling.com</a>
                 </div>
             </div>

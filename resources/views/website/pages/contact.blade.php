@@ -62,7 +62,7 @@ $banner_path = 0;
                                     <span><i class="icon-phone4"></i></span>
                                     <div class="text">
                                         <h4>Phone</h4>
-                                        <p>(+44) (0)207 993 2325</p>
+                                        <p>+60  03-2299 4400</p>
                                     </div>
                                 </div>
                             </div>
