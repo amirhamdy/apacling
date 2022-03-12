@@ -56,7 +56,7 @@ $banner_path = 0;
                     </div>
                 </li>
                 <li data-transition="fade">
-                    <img src="{{ asset('images/home/slider/7.jpg') }}" alt="" data-bgposition="center center"
+                    <img src="{{ asset('images/home/slider/2.jpg') }}" alt="" data-bgposition="center center"
                          data-bgfit="cover">
                     <h1 class="tp-caption  tp-resizeme uppercase"
                         data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
