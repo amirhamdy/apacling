@@ -23,6 +23,10 @@ Route::get('/services', function () {
     return view('website.pages.services');
 })->name('services');
 
+Route::get('/service-details/{id}', function () {
+    return view('website.pages.service-details');
+})->name('service-details');
+
 Route::get('/translation', function () {
     return view('website.pages.index');
 })->name('translation');
