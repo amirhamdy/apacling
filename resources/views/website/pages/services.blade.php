@@ -19,7 +19,7 @@ $descriptions = [
     "Machine translation post editing. It combines human accuracy with machine translation high speed",
     "Facilitates the entire process of localization. planning and execution workflow of exporting, translating, and re-integrating content and data for websites, apps, or e-learning modules .",
 ];
-$images = ["images/service1.jpg", "images/service1.jpg", "images/service1.jpg", "images/service1.jpg", "images/service1.jpg", "images/service1.jpg"];
+$images = ["images/services/1.jpg", "images/services/2.jpg", "images/services/3.jpg", "images/services/4.jpg", "images/services/5.jpg", "images/services/6.jpg"];
 ?>
 
 @section('page_content')
@@ -56,9 +56,10 @@ $images = ["images/service1.jpg", "images/service1.jpg", "images/service1.jpg", 
                     <div class="col-sm-4">
                         <div class="service_wrap heading_space">
                             <div class="image bottom10">
-                                <img src="{{ asset($images[$i]) }}" alt="our Team">
+                                <img style="width: 370px; height: 344px" src="{{ asset($images[$i]) }}" alt="service">
                                 <div class="overlay">
-                                    <a href="{{ route('service-details', $ids[$i]) }}" class="overlay_center border_radius">
+                                    <a href="{{ route('service-details', $ids[$i]) }}"
+                                       class="overlay_center border_radius">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                 </div>
@@ -67,7 +68,8 @@ $images = ["images/service1.jpg", "images/service1.jpg", "images/service1.jpg", 
                             <p class="bottom15">
                                 {{ $descriptions[$i] }}
                             </p>
-                            <a href="{{ route('service-details', $ids[$i]) }}" class="btn-border border_radius text-uppercase">
+                            <a href="{{ route('service-details', $ids[$i]) }}"
+                               class="btn-border border_radius text-uppercase">
                                 Learn More
                             </a>
                         </div>

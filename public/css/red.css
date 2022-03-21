@@ -46,7 +46,7 @@ ul.links li a:hover, ul.links li a:focus,
 	background:rgba(255,255,255, .8);
 }
 .service_wrap .overlay, #layout-project .overlay{
-	background:rgba(115,174,32, .8);
+	background:rgba(37, 116, 62, .8);
 }
 .overlay a.overlay_center:hover, .overlay a.overlay_center:focus{
 	background:#019bb6;
