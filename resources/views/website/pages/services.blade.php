@@ -9,7 +9,7 @@
 
 <?php
 $banner_path = 0;
-$ids = ["1", "2", "3", "1", "2", "3"];
+$ids = ["0", "1", "2", "3", "4", "5"];
 $titles = ["Translation", "Localization", "DTP", "Software Engineering", "MTPE", "Localization Engineering"];
 $descriptions = [
     "At the core of the Apacling team are our highly skilled and experienced in-house translators. Not only are they native-speakers, but also have many years of translation experience.",
@@ -19,7 +19,7 @@ $descriptions = [
     "Machine translation post editing. It combines human accuracy with machine translation high speed",
     "Facilitates the entire process of localization. planning and execution workflow of exporting, translating, and re-integrating content and data for websites, apps, or e-learning modules .",
 ];
-$images = ["images/services/1.jpg", "images/services/2.jpg", "images/services/3.jpg", "images/services/4.jpg", "images/services/5.jpg", "images/services/6.jpg"];
+$images = ["images/services/1.jpg", "images/services/2.jpg", "images/services/3.jpg", "images/services/4.jpg", "images/services/5.jpg", "images/services/6.jpeg"];
 ?>
 
 @section('page_content')

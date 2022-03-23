@@ -38,7 +38,7 @@ $banner_path = 0;
                          data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1300">
                         <p class="white_t">
-                            Your local gateway to APAC region
+                            Your local gateway to APAC region!
                         </p>
                     </div>
                     <div class="tp-caption  tp-resizeme"
@@ -55,39 +55,6 @@ $banner_path = 0;
                         </a>
                     </div>
                 </li>
-                <li data-transition="fade">
-                    <img src="{{ asset('images/home/slider/2.jpg') }}" alt="" data-bgposition="center center"
-                         data-bgfit="cover">
-                    <h1 class="tp-caption  tp-resizeme uppercase"
-                        data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
-                        data-y="['290','190','190','100']" data-voffset="['0','0','0','0']"
-                        data-responsive_offset="on"
-                        data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        data-start="1000"><strong class="blue_t">Services</strong>
-                    </h1>
-                    <div class="tp-caption  tp-resizeme"
-                         data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
-                         data-y="['360','260','260','200']" data-voffset="['0','0','0','0']"
-                         data-responsive_offset="on"
-                         data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
-                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1300">
-                        <p class="white_t">
-                            We offer the most complete house renovating services in the country, from kitchen
-                        </p>
-                    </div>
-                    <div class="tp-caption  tp-resizeme"
-                         data-x="['left','left','left','center']" data-hoffset="['0','15','15','15']"
-                         data-y="['410','310','290','180']" data-voffset="['0','0','0','0']"
-                         data-responsive_offset="on" data-transform_idle="o:1;"
-                         data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
-                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1600">
-                        <a href="{{ route('services') }}" class="btn-border text-uppercase border_radius btn-white">our services
-                        </a>
-                        <a href="{{ route('home') }}" class="text-uppercase border_radius btn-green">Get a quote
-                        </a>
-                    </div>
-                </li>
             </ul>
         </div>
     </section>
@@ -99,7 +66,7 @@ $banner_path = 0;
             <div class="row">
                 <div class="col-sm-12 text-center wow fadeInDown" data-wow-delay="500ms">
                     <h2 class="text-capitalize bottom10">Services <span class="blue_t">We Provide</span></h2>
-                    <p>Your local gateway to APAC region</p>
+                    <p>Your local gateway to APAC region!</p>
                 </div>
             </div>
             <div class="row">
@@ -186,12 +153,14 @@ $banner_path = 0;
                     <div id="plan_slider" class="owl-carousel">
                         <div class="item">
                             <h2 class="bottom10 green_t">Start with us now</h2>
+                            <br>
                             <p class="bottom20">
                                 We provide you with our best translation and localization quality for a very low price,
                                 as all our translators are native in country speakers and in-house as well. So you may
                                 get the best quality and paying lowest price. Additionally, we keep always an eye on the
                                 deadline desired from the customer.
                             </p>
+                            <br>
                             <a href="{{ route('about') }}" class="btn-border text-uppercase border_radius btn-green">Read
                                 More...</a>
                         </div>
@@ -457,25 +426,17 @@ $banner_path = 0;
     <!--Partner Ends-->
 
     <!--Contact Info-->
-    <div class="container bg_contact bg_one border_radius wow bounceInUp" data-wow-delay="500ms">
+    <div class="container bg_contact bg_one border_radius">
         <div class="row">
             <div class="col-sm-3">
-                <div class="contact_inner">
-                    <i class="icon-phone4"></i>
-                    <h5><strong>+60  03-2299 4400</strong></h5>
-                    <a href="{{ route('home') }}">info@apacling.com</a>
-                </div>
+                <div class="contact_inner"><i class="icon-phone4"></i>
+                    <h5><strong>(+01) 333-444-4567</strong></h5>
+                    <a href="javascript:void(0)">contact@website.com</a></div>
             </div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3"></div>
             <div class="col-sm-3">
-                <div class="contact_inner">
-                    <i class="icon-icons20"></i>
-                    <h5><strong>Mon - Sat 8.00 - 17.00</strong></h5>
-                    <h5>Sunday Closed</h5>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="contact_inner">
-                    <i class="icon-location"></i>
+                <div class="contact_inner"><i class="icon-location"></i>
                     <h5><strong>(8th floor, 379 Hudson St</strong></h5>
                     <h5>New York, NY 10018</h5>
                 </div>

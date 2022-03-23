@@ -81,8 +81,7 @@ $banner_path = 0;
                             <li><i class="icon-check"></i> Electronics</li>
                             <li><i class="icon-check"></i> Energy</li>
                             <li><i class="icon-check"></i> Financial services</li>
-                            <li><i class="icon-check"></i> FMCG</li>
-                            <li><i class="icon-check"></i> ICT</li>
+                            <li><i class="icon-check"></i> Literature</li>
                         </ul>
                         <ul class="check bottom30 col-sm-6">
                             <li><i class="icon-check"></i> Machinery and equipment</li>

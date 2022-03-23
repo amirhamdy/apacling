@@ -44,25 +44,25 @@ $banner_path = 0;
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 padding-bottom">
-                    <img src="{{ asset('images/about/5.jpg') }}" alt="About Us" class="img-responsive">
+                    <img src="{{ asset('images/about/3.jpg') }}" alt="About Us" class="img-responsive">
                 </div>
                 <div class="col-sm-6 about_right padding-bottom">
                     <h2 class="bottom10">We Innovate & <span class="blue_t">Design</span></h2>
                     <p class="bottom30">
-                        Quality Comes First: 15 Years of experience in
-                        providing translation services to global partners. Trusted by most of top 100 global
-                        language providers. n-house & in- country specialists with more than 7 years of translation
+                        Quality Comes First: 15 Years of experience in providing translation services to global
+                        partners and trusted by most of top 100 global language providers.
+                        Trusted by most of top 100 global language providers.
+                    </p>
+                    <p class="bottom30">
+                        In-house & in-country specialists with more than 7 years of translation
                         experience.
                     </p>
                     <p class="bottom30">
-                        15 Years of experience in
-                        providing translation services to global partners and trusted by most of top 100 global
-                        language providers. in-house & in-country specialists with more than 7 years of translation
-                        experience. You can join our team by sending your CV and qualifications to
+                        You can join our team by sending your CV and qualifications to
                         <span class="blue_t">vendor_management@apacling.com</span>
                     </p>
 
-                    <ul class="check">
+                    <ul class="check hidden">
                         <li><i class="icon-check"></i>Mei an pericula euripidis, hinc partem ei est.</li>
                         <li><i class="icon-check"></i>Eos ei nisl graecis acer sell well.</li>
                         <li><i class="icon-check"></i>Alienum phaedrum torquatos lorem fact.</li>
@@ -92,8 +92,12 @@ $banner_path = 0;
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2>Quality Comes First</h2>
-                    <p class="heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros Sed
+                    <p class="heading_space hidden">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros
+                        Sed
                         ornare ligula eget tortor tempor.</p>
+                    <br>
+                    <br>
+                    <br>
                 </div>
                 <div class="clearfix"></div>
                 <div class="quality_wrap clearfix">
@@ -200,8 +204,11 @@ $banner_path = 0;
                 </div>
                 <div class="col-md-6">
                     <div class="do_media media bottom40">
-                        <div class="media-left"><a href="#"> <img class="media-object" src="images/wedo.jpg"
-                                                                  alt=".We Do"> </a></div>
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="{{ asset('images/wedo.jpg') }}" alt=".We Do">
+                            </a>
+                        </div>
                         <div class="media-body">
                             <h4 class="bottom10">Always Available</h4>
                             <p class="heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros.
@@ -231,19 +238,14 @@ $banner_path = 0;
                     <h5><strong>(+01) 333-444-4567</strong></h5>
                     <a href="javascript:void(0)">contact@website.com</a></div>
             </div>
-            <div class="col-sm-3">
-                <div class="contact_inner"><i class="icon-icons20"></i>
-                    <h5><strong>Mon - Sat 8.00 - 17.00</strong></h5>
-                    <h5>Sunday Closed</h5>
-                </div>
-            </div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3"></div>
             <div class="col-sm-3">
                 <div class="contact_inner"><i class="icon-location"></i>
                     <h5><strong>(8th floor, 379 Hudson St</strong></h5>
                     <h5>New York, NY 10018</h5>
                 </div>
             </div>
-            <div class="col-sm-3"></div>
         </div>
     </div>
 @endsection

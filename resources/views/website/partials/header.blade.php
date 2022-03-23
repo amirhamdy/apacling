@@ -6,7 +6,6 @@
                 <div class="topbar green_bg">
                     <span class="call">Call: +60  03-2299 4400 </span>
                     <span class="call">Email: <a href="#">info@apacling.com</a></span>
-                    <span class="call">Mon - Sat 8.00 - 17.00</span>
                     <ul class="top_social">
                         <li><a href="#." class="facebook"><i class="fa fa-facebook"></i></a></li>
                         <li>
@@ -40,7 +39,17 @@
                     <ul class="nav navbar-nav navbar-right" data-in="slideInUp" data-out="fadeOut">
                         <li><a href="{{ route('home') }}" class="active border">Home</a></li>
                         <li><a href="{{ route('about') }}" class="border">About Us</a></li>
-                        <li><a href="{{ route('services') }}" class="border">Services</a></li>
+                        <li class="dropdown">
+                            <a href="{{ route('services') }}" class="dropdown-toggle border" data-toggle="dropdown">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{ route('service-details', 0) }}">Translation</a></li>
+                                <li><a href="{{ route('service-details', 1) }}">Localization</a></li>
+                                <li><a href="{{ route('service-details', 2) }}">DTP</a></li>
+                                <li><a href="{{ route('service-details', 3) }}">Software Engineering</a></li>
+                                <li><a href="{{ route('service-details', 4) }}">MTPE</a></li>
+                                <li><a href="{{ route('service-details', 5) }}">Localization Engineering</a></li>
+                            </ul>
+                        </li>
                         <li><a href="{{ route('why_us') }}" class="border">Why US</a></li>
                         <li><a href="{{ route('careers') }}" class="border">Careers</a></li>
                         <li><a href="{{ route('contact-us') }}" class="border">Contact US</a></li>

@@ -47,22 +47,21 @@ $banner_path = 0;
             <div class="row">
                 <div class="col-sm-6">
                     <div class="contact_detail padding-bottom">
-                        <h3 class="bottom20">Project Description</h3>
-                        <p class="bottom30">Marum quidem rerum facilis est et expedita distinctio am libero lanbour
-                            tempore, cum soluta nobis este eligendi optio cumque nihil impedit quo It is a long
-                            established fact that a minus id quod maxime placeat facere possimus.</p>
-                        <p class="bottom20">Ationally encounter se consequencess that are (+01) 333 444 4567 is there
-                            anyone 24/7 who oluta nobis loves info@envas.com</p>
-                        <h3 class="bottom20">Our Address</h3>
-                        <p>Marum quidem rerum facilis est et expedita distinctio am libero lanbour tempore, cum soluta
-                            nobis este eligendi optio cumque nihil.</p>
+                        <h3 class="bottom20">About <span class="green_t"> Apacling</span></h3>
+                        <p class="bottom30">
+                            Quality Comes First: 15 Years of experience in providing translation services to global
+                            partners and trusted by most of top 100 global language providers. Trusted by most of top
+                            100 global language providers.
+                            In-house & in-country specialists with more than 7 years of translation experience.
+                        </p>
+
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="address">
                                     <span><i class="icon-phone4"></i></span>
                                     <div class="text">
                                         <h4>Phone</h4>
-                                        <p>+60  03-2299 4400</p>
+                                        <p>+60 03-2299 4400</p>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +87,7 @@ $banner_path = 0;
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <h3 class="bottom20">Let’s Talk To Us</h3>
+                    <h3 class="bottom20">Contact Us</h3>
                     <form class="callus padding-bottom" id="contact-form" onSubmit="return false">
 
                         <div class="form-group">
@@ -122,7 +121,7 @@ $banner_path = 0;
                     </form>
                 </div>
                 <div class="col-sm-12">
-                    <div id="map"></div>
+
                 </div>
             </div>
         </div>

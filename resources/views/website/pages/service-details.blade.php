@@ -10,7 +10,7 @@
 <?php
 $banner_path = 0;
 
-$ids = ["1", "2", "3", "1", "2", "3"];
+$ids = ["0", "1", "2", "3", "4", "5"];
 $titles = ["Translation", "Localization", "DTP", "Software Engineering", "MTPE", "Localization Engineering"];
 $descriptions = [
     "At the core of the Apacling team are our highly skilled and experienced in-house translators. Not only are they native-speakers, but also have many years of translation experience.",
