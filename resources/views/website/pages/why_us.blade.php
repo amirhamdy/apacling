@@ -42,7 +42,7 @@ $banner_path = 0;
             <div class="row">
                 <div class="col-sm-12 bottom40">
                     <div class="blog_item">
-                        <div class="blog_image bottom20">
+                        <div class="blog_image bottom20 hidden">
                             <img class="img-responsive" style="margin: 0 auto;"
                                  src="{{ asset('images/why-us/1.jpeg') }}" alt="">
                         </div>

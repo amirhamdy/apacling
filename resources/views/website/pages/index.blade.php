@@ -20,7 +20,7 @@ $banner_path = 0;
                 <!-- SLIDE  -->
                 <li data-transition="fade">
                     <!-- MAIN IMAGE -->
-                    <img src="{{ asset('images/home/slider/1.jpg') }}" alt="" data-bgposition="center center"
+                    <img src="{{ asset('images/home/slider/4.webp') }}" alt="" data-bgposition="center center"
                          data-bgfit="cover">
                     <!-- LAYER NR. 1 -->
                     <h1 class="tp-caption  tp-resizeme uppercase"
@@ -146,7 +146,7 @@ $banner_path = 0;
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 content_left">
                     <figure>
-                        <img src="{{ asset('images/home/1.jpg') }}" alt="about" class="img-responsive">
+                        <img src="{{ asset('images/home/2.webp') }}" alt="about" class="img-responsive">
                     </figure>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 content_right shadow  margin-bottom">
@@ -207,7 +207,7 @@ $banner_path = 0;
         <div class="container">
             <div class="row landing-wrapper">
                 <div class="col-sm-6 video wow fadeInLeft" style="padding: 0" data-wow-delay="500ms">
-                    <img src="{{ asset('images/home/5.jpg') }}" alt="video">
+                    <img src="{{ asset('images/home/4.jpeg') }}" alt="video">
                 </div>
                 <div class="col-sm-6 right_content top40 bottom40 wow fadeInRight" style="padding: 0 30px;"
                      data-wow-delay="500ms">
@@ -284,7 +284,7 @@ $banner_path = 0;
     <!--Call Form Ends-->
 
     <!--People Saying-->
-    <section id="people" class="padding">
+    <section id="people" class="padding hidden">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center wow fadeInDown" data-wow-delay="500ms">
@@ -392,8 +392,11 @@ $banner_path = 0;
 
     <hr>
 
+    {{--    Markem Imaje Industries / Imperial Tobacco Canada / MNP / Airports Council International / --}}
+    {{--    Amazon USA/ Ohio State University /Wexner Medical Center / OhioHealth Research Institute/--}}
+    {{--    Franklin County children services/ 2020census--}}
     <!--Partners-->
-    <section id="partner" class="padding-bottom-half padding-top">
+    <section id="partner" class="padding-bottom-half padding-top hidden">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center wow fadeInDown" data-wow-delay="500ms">
@@ -404,21 +407,21 @@ $banner_path = 0;
             </div>
             <div class="row">
                 <div id="logo_slider" class="owl-carousel">
-                    <div class="item"><img src="images/logo1.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo2.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo3.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo4.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo5.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo1.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo2.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo3.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo4.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo5.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo1.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo2.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo3.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo4.png" alt="our Partner"></div>
-                    <div class="item"><img src="images/logo5.png" alt="our Partner"></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/1.svg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/2.jpeg') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/3.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/4.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo5.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo1.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo2.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo3.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo4.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo5.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo1.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo2.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo3.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo4.png') }}" alt=""></div>
+                    <div class="item"><img src="{{ asset('images/home/partners/logo5.png') }}" alt=""></div>
                 </div>
             </div>
         </div>

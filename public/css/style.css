@@ -1449,7 +1449,7 @@ nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:focus{
 }
 
 #bg-video{
-	background:url(../images/home/bg.png) no-repeat;
+	background:url(../images/home/bg.webp) no-repeat;
 	background-size:cover;
 	background-position:center center;
 	color:#fff;
@@ -1563,7 +1563,7 @@ nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:focus{
 
 /* ----------------- Parallax Backgrounds ----------------- */
 .parallax_one{
-	background:url(../images/home/parallax1.jpg) no-repeat;
+	background:url(../images/home/parallax1.webp) no-repeat;
 }
 .parallax_one, .parallax_two, .parallax_news, .parallax_bg_slider, .page_header{
 	background-size:cover;
