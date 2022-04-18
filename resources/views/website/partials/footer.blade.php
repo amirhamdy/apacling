@@ -7,7 +7,7 @@
                     <img style="width: 250px;" src="{{ asset('images/logo.png') }}" alt="envas">
                 </a>
                 <p class="bottom30">
-                    Based in Malaysia, Apacling have offices in a number of different locations which enables us to remain in touch
+                    Based in Malaysia, Apacling has offices in a number of different locations which enables us to remain in touch
                     with all local demands, needs and requirements.
                 </p>
                 <ul class="social_icon heading_top">

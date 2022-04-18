@@ -112,9 +112,12 @@ $banner_path = 0;
                                 </div>
                                 <div class="media-body">
                                     <h4 class="bottom10">Our Capabilities</h4>
-                                    <p class="bottom15">Phasellus lorem enim, luctus ut velit eget, convallis egestas
-                                        eros. Sed ornare ligula Progressively generate synergistic luctus ut velit eget
-                                        eget.</p>
+                                    <p class="bottom15">
+                                        From document translation and proofreading to website translation and
+                                        localization, Apacling has the capabilities and expertise to manage your
+                                        projects from A to Z, handling all types of content, documents, and file
+                                        formats, delivering quality under tight deadlines.
+                                    </p>
                                 </div>
                             </div>
                             <div class="media">
@@ -123,9 +126,10 @@ $banner_path = 0;
                                 </div>
                                 <div class="media-body">
                                     <h4 class="bottom10">We are Best at</h4>
-                                    <p class="bottom15">Phasellus lorem enim, luctus ut velit eget, convallis egestas
-                                        eros. Sed ornare ligula Progressively generate synergistic luctus ut velit eget
-                                        eget.</p>
+                                    <p class="bottom15">
+                                        We are committed to providing with the highest quality translations at the most
+                                        competitive prices in the industry.
+                                    </p>
                                 </div>
                             </div>
                             <div class="media">
@@ -134,9 +138,12 @@ $banner_path = 0;
                                 </div>
                                 <div class="media-body">
                                     <h4 class="bottom10">How We Accomplish</h4>
-                                    <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare
-                                        ligula Progressively generate synergistic
-                                        luctus ut velit eget eget.</p>
+                                    <p>
+                                        Through dedicated staff, we provide our clients with top-notch customer service
+                                        and care. Our friendly and knowledgeable team is available around the clock,
+                                        including weekends and major holidays. We train our staff to take ownership of
+                                        our clients’ goals throughout translation process.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -154,9 +161,12 @@ $banner_path = 0;
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2>What We<span class="blue_t">Do</span></h2>
-                    <p class="heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros Sed
+                    <p class="heading_space hidden">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros
+                        Sed
                         ornare
                         ligula eget tortor tempor.</p>
+                    <hr>
+                    <br>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-md-6">
@@ -164,30 +174,25 @@ $banner_path = 0;
                         <div class="accordion_title"><a href="javascript:void(0)" class="active">Our Mission<i
                                     class="fa fa-plus"></i></a>
                             <div class="content" style="display:block;">
-                                <p class="bottom20">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil
-                                    expetendis
-                                    in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix
-                                    aperiri consequat an.
-                                    Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
-                                <p class="bottom0">Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error
-                                    omnium
-                                    interpretaris pro, alia illum ea vim.</p>
+                                <p class="bottom20">
+                                    our mission is to grow a translation company with a solid infrastructure of great
+                                    people, and advanced communication with our main objective of providing
+                                    extraordinary customer service and professional, high-quality language-related
+                                    solutions that connect our clients to the world.
+                                </p>
                             </div>
                         </div>
                         <div class="accordion_title"><a href="javascript:void(0)">Our Goals<i
                                     class="fa fa-plus"></i></a>
                             <div class="content">
-                                <p class="bottom20">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil
-                                    expetendis
-                                    in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix
-                                    aperiri consequat an.
-                                    Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.</p>
-                                <p class="bottom0">Vis ei rationibus definiebas, eu qui purto zril laoreet. Ex error
-                                    omnium
-                                    interpretaris pro, alia illum ea vim.</p>
+                                <p class="bottom20">
+                                    Improve a worldwide communication through accurate, localized translation services,
+                                    and a wide range of customized language solutions for organizations, and businesses
+                                    of all sizes.
+                                </p>
                             </div>
                         </div>
-                        <div class="accordion_title"><a href="javascript:void(0)">About Fin Growth <i
+                        <div class="accordion_title hidden"><a href="javascript:void(0)">About Fin Growth <i
                                     class="fa fa-plus"></i></a>
                             <div class="content">
                                 <p class="bottom20">Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil
@@ -206,21 +211,25 @@ $banner_path = 0;
                     <div class="do_media media bottom40">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="{{ asset('images/wedo.jpg') }}" alt=".We Do">
+                                <img class="media-object" src="{{ asset('images/about/1.webp') }}" alt=".We Do">
                             </a>
                         </div>
                         <div class="media-body">
                             <h4 class="bottom10">Always Available</h4>
-                            <p class="heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros.
-                                Sed ornare
-                                ligula Progressively generate synergistic eget.</p>
+                            <p class="heading_space">
+                                We work around the clock in order to fulfill our clients’ requirements all over the
+                                world.
+                            </p>
                             <h4 class="bottom10">Qualified Agents</h4>
-                            <p class="heading_space">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros.
-                                Sed ornare
-                                ligula.</p>
+                            <p class="heading_space">
+                                Our team of translators and reviewers are experts in their native languages. We have
+                                professional experts in many specializations
+                            </p>
                             <h4 class="bottom10">Best Offers</h4>
-                            <p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare
-                                ligula.</p>
+                            <p>
+                                With very competitive prices, we tend to offer our clients the best service with the
+                                most efficient rates can be offered in the market.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -235,7 +244,7 @@ $banner_path = 0;
         <div class="row">
             <div class="col-sm-3">
                 <div class="contact_inner"><i class="icon-phone4"></i>
-                    <h5><strong>(+01) 333-444-4567</strong></h5>
+                    <h5><strong>+60 03-2299 4400</strong></h5>
                     <a href="javascript:void(0)">contact@website.com</a></div>
             </div>
             <div class="col-sm-3"></div>

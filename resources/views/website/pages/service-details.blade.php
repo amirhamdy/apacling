@@ -20,7 +20,7 @@ $descriptions = [
     "Machine translation post editing. It combines human accuracy with machine translation high speed",
     "Facilitates the entire process of localization. planning and execution workflow of exporting, translating, and re-integrating content and data for websites, apps, or e-learning modules .",
 ];
-$images = ["images/-home4-banner1.jpg", "images/-home4-banner1.jpg", "images/-home4-banner1.jpg", "images/-home4-banner1.jpg", "images/-home4-banner1.jpg", "images/-home4-banner1.jpg"];
+$images = ["images/services/in/0.jpeg", "images/services/in/2.webp", "images/services/in/1.webp", "images/services/in/4.webp", "images/services/in/3.webp", "images/services/in/5.webp"];
 ?>
 
 @section('page_content')
@@ -49,7 +49,7 @@ $images = ["images/-home4-banner1.jpg", "images/-home4-banner1.jpg", "images/-ho
         </div>
     </div>
 
-    {{ request()->route('id') }}
+{{--    {{ request()->route('id') }}--}}
 
     <!--Services-->
     <section id="service" class="padding">
@@ -62,8 +62,7 @@ $images = ["images/-home4-banner1.jpg", "images/-home4-banner1.jpg", "images/-ho
                             <div class="services_content">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <img src="{{ asset($images[request()->route('id')]) }}" alt=""
-                                             class="img-responsive" style="margin: 0 auto;">
+                                        <img src="{{ asset($images[request()->route('id')]) }}" alt="img" class="img img-responsive" style="margin: 0 auto;">
                                     </div>
                                     <div class="col-md-4 hidden">
                                         <div class="owl-carousel bottom20" id="service_slider">
@@ -122,7 +121,7 @@ $images = ["images/-home4-banner1.jpg", "images/-home4-banner1.jpg", "images/-ho
                                     accident, sometimes on purpose (injected humour and the like).
                                 </p>
 
-                                <div class="row">
+                                <div class="row hidden">
                                     <div class="col-md-12">
                                         <h2 class="bottom10">Key<span class="blue_t">Benefits</span></h2>
                                         <p class="bottom15">Phasellus lorem enim, luctus ut velit eget.</p>

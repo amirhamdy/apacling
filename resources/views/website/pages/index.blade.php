@@ -433,7 +433,7 @@ $banner_path = 0;
         <div class="row">
             <div class="col-sm-3">
                 <div class="contact_inner"><i class="icon-phone4"></i>
-                    <h5><strong>(+01) 333-444-4567</strong></h5>
+                    <h5><strong>+60 03-2299 4400</strong></h5>
                     <a href="javascript:void(0)">contact@website.com</a></div>
             </div>
             <div class="col-sm-3"></div>
