@@ -245,14 +245,13 @@ $banner_path = 0;
             <div class="col-sm-3">
                 <div class="contact_inner"><i class="icon-phone4"></i>
                     <h5><strong>+60 03-2299 4400</strong></h5>
-                    <a href="javascript:void(0)">contact@website.com</a></div>
+                    <a href="javascript:void(0)">info@apacling.com</a></div>
             </div>
             <div class="col-sm-3"></div>
-            <div class="col-sm-3"></div>
-            <div class="col-sm-3">
+            <div class="col-sm-6" style="padding-left: 100px">
                 <div class="contact_inner"><i class="icon-location"></i>
-                    <h5><strong>(8th floor, 379 Hudson St</strong></h5>
-                    <h5>New York, NY 10018</h5>
+                    <h5><strong>30-5-1 JALAN 5/101C, CHERAS BUSINESS CENTER</strong></h5>
+                    <h5>TAMAN CHERAS, 56100 KUALA LUMPUR, MALAYSIA</h5>
                 </div>
             </div>
         </div>

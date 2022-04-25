@@ -74,12 +74,16 @@ $banner_path = 0;
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-12">
                                 <div class="address">
-                                    <span><i class="icon-location"></i></span>
+                                    <span><i class="icon-location" style="line-height: 73px;"></i></span>
                                     <div class="text">
                                         <h4>Address</h4>
-                                        <p>8th floor, 379 Hudson St New York, NY 10018</p>
+                                        <p>
+                                            30-5-1 JALAN 5/101C, CHERAS BUSINESS CENTER <br>
+                                            TAMAN CHERAS, 56100 KUALA LUMPUR <br>
+                                            MALAYSIA
+                                        </p>
                                     </div>
                                 </div>
                             </div>
